@@ -6,12 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
-        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <!-- Elimina los enlaces a Google Fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet"> -->
+
+    <!-- Usa fuentes genéricas con un fallback -->
+    <style>
+        body {
+            font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            /* Intenta cargar Roboto, luego Helvetica Neue, luego Arial, y finalmente usa una fuente sans-serif genérica */
+        }
+    </style>
     <title>Instagram Post</title>
 
 </head>
@@ -35,11 +41,11 @@
                             d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" />
                     </svg>
                 </div>
+
             </div>
             <img class="img" src="https://cdn.pixabay.com/photo/2018/04/26/12/14/travel-3351825_1280.jpg"
                 alt="foto playa viento auto rosa">
         </div>
-
         <div class="iconos">
             <div class="iconos-i">
                 <svg xmlns="http://www.w3.org/2000/svg" height="1.8em" viewBox="0 0 512 512">

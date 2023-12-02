@@ -21,6 +21,7 @@ body {
 .numero {
     display: flex;
     align-items: center;
+    padding: 5px;
 }
 
 .usuario {
@@ -41,7 +42,7 @@ img.img {
     height: 300px;
 }
 
-.iconos {
+.iconos .iconos-i {
     display: flex;
     justify-content: space-between;
     padding: 15px;

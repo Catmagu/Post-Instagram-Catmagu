@@ -3,42 +3,42 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-
-.post{
-    margin:0 auto;
+.post {
+    margin: 0 auto;
     background-color: ghostwhite;
     width: 500px;
-    height: 650px;
+    height: 800px;
+    overflow: auto;
 }
 
-.post-header{
+.post-header {
     display: flex;
     justify-content: space-between;
-    padding: 12px;
+    padding: 2px;
     align-items: center;
 }
 
-.numero{
+.numero {
     display: flex;
     align-items: center;
 }
 
-.usuario{
+.usuario {
     line-height: 0;
     margin-left: 5px;
 }
 
-.puntos{
+.puntos {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    margin: top 2px;
+    margin-top: 2px; 
 }
 
-.img{
-    margin-top: 2px ;
+img.img {
+    margin-top: 0px;
     width: 500px;
-    height: 350px;   
+    height: 300px;
 }
 
 .iconos {
@@ -47,7 +47,7 @@ body {
     padding: 15px;
 }
 
-.texto{
-    margin:2;
-    padding:12px;
+.texto {
+    margin: 10px; 
+    padding: 12px;
 }

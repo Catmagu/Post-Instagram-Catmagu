@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    font-family: 'Roboto', sans-serif;
+    color: white; /* Asegura que el texto sea visible en el fondo negro */
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
 }
 
 .post {
@@ -22,6 +23,7 @@ body {
     display: flex;
     align-items: center;
     padding: 5px;
+    color: black; /* Asegura que el texto del nombre de usuario sea visible en fondo blanco */
 }
 
 .usuario {
@@ -33,10 +35,10 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-top: 2px; 
+    margin-top: 2px;    
 }
 
-img.img {
+img {
     margin-top: 0px;
     width: 500px;
     height: 300px;
@@ -45,10 +47,15 @@ img.img {
 .iconos .iconos-i {
     display: flex;
     justify-content: space-between;
-    padding: 15px;
+    padding: 15px;    
 }
 
-.texto {
-    margin: 10px; 
+.iconos-i i {
+    color: black;
+}
+
+.text {
+    margin: 10px;
     padding: 12px;
+    color: black; /* El texto dentro del post debería ser visible sobre ghostwhite */
 }
